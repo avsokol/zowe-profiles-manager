@@ -1,0 +1,2 @@
+class ZoweCmdFailException(Exception):
+    pass

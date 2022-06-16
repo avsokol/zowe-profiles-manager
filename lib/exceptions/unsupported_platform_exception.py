@@ -1,0 +1,2 @@
+class UnsupportedPlatformException(Exception):
+    pass
