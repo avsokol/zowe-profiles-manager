@@ -1,6 +1,6 @@
 # zowe-profiles-manager
 Zowe profile manager GUI. Specially for Broadcom ZOWE Hackaton.
-Zowe is an integrated and extensible open source framework for z/OS (a.k. a. MainFrame).
+Zowe is an integrated and extensible open source framework for z/OS (a.k.a. MainFrame).
 
 Current version manages only ZOSMF, SSH and TSO ZOWE user profiles.
 
