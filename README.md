@@ -1,7 +1,7 @@
 # zowe-profiles-manager
 Zowe profile manager GUI. Specially for Broadcom ZOWE Hackaton.
 
-Current version manages only ZOSMF ZOWE user profiles.
+Current version manages only ZOSMF, SSH and TSO ZOWE user profiles.
 
 ## Prerequisites
 * Zowe CLI is installed in a system and zowe (zowe.cmd) is in the PATH environement.
