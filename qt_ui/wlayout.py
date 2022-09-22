@@ -6,8 +6,8 @@
 #
 # WARNING! All changes made in this file will be lost!
 import os
-from PySide2 import QtCore, QtGui, QtWidgets
-from PySide2.QtWidgets import QAbstractItemView, QStatusBar
+from PySide6 import QtCore, QtGui, QtWidgets
+from PySide6.QtWidgets import QAbstractItemView, QStatusBar
 
 
 class UiMainWindow(object):
@@ -155,10 +155,10 @@ class UiMainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(main_window)
         self.statusbar.setObjectName("statusbar")
         main_window.setStatusBar(self.statusbar)
-        self.actionAbout = QtWidgets.QAction(main_window)
+        self.actionAbout = QtGui.QAction(main_window)
         self.actionAbout.setObjectName("actionAbout")
 
-        self.actionAbout = QtWidgets.QAction(main_window)
+        self.actionAbout = QtGui.QAction(main_window)
         about_icon = QtGui.QIcon()
         about_icon.addPixmap(
             QtGui.QPixmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "../ico/about.png")),
@@ -167,22 +167,22 @@ class UiMainWindow(object):
         )
         self.actionAbout.setIcon(about_icon)
 
-        self.actionCreateProfile = QtWidgets.QAction(main_window)
+        self.actionCreateProfile = QtGui.QAction(main_window)
         self.actionCreateProfile.setIcon(icon1)
         self.actionCreateProfile.setObjectName("actionCreateProfile")
-        self.actionEditProfile = QtWidgets.QAction(main_window)
+        self.actionEditProfile = QtGui.QAction(main_window)
         self.actionEditProfile.setIcon(icon2)
         self.actionEditProfile.setObjectName("actionEditProfile")
-        self.actionDeleteProfile = QtWidgets.QAction(main_window)
+        self.actionDeleteProfile = QtGui.QAction(main_window)
         self.actionDeleteProfile.setIcon(icon3)
         self.actionDeleteProfile.setObjectName("actionDeleteProfile")
-        self.actionSetDefaultProfile = QtWidgets.QAction(main_window)
+        self.actionSetDefaultProfile = QtGui.QAction(main_window)
         self.actionSetDefaultProfile.setIcon(icon4)
         self.actionSetDefaultProfile.setObjectName("actionSetDefaultProfile")
-        self.actionRefreshProfiles = QtWidgets.QAction(main_window)
+        self.actionRefreshProfiles = QtGui.QAction(main_window)
         self.actionRefreshProfiles.setIcon(icon5)
         self.actionRefreshProfiles.setObjectName("actionRefreshProfiles")
-        self.actionExit = QtWidgets.QAction(main_window)
+        self.actionExit = QtGui.QAction(main_window)
         self.actionExit.setObjectName("actionExit")
         self.menuHelp.addAction(self.actionAbout)
         self.menuFile.addAction(self.actionCreateProfile)

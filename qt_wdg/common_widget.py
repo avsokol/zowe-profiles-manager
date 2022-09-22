@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import QMessageBox
+from PySide6.QtWidgets import QMessageBox
 from inc.constants import Overwrite_Profile_Template, CREATE_PROFILE
 import re
 

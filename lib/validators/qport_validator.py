@@ -1,6 +1,6 @@
 import sys
 import re
-from PySide2.QtWidgets import QLineEdit, QApplication, QWidget, QFormLayout
+from PySide6.QtWidgets import QLineEdit, QApplication, QWidget, QFormLayout
 from lib.validators.qcommon_validator import QCommonValidator
 
 

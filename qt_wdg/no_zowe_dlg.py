@@ -1,6 +1,6 @@
 import sys
-from PySide2.QtGui import Qt
-from PySide2.QtWidgets import QMessageBox
+from PySide6.QtGui import Qt
+from PySide6.QtWidgets import QMessageBox
 
 
 class NoZoweDlg(object):

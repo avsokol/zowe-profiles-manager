@@ -5,7 +5,7 @@
 # Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
-from PySide2 import QtCore, QtWidgets
+from PySide6 import QtCore, QtWidgets
 from inc.constants import Whats_Char_Set, Whats_Profile_Name, Whats_Char_Set_Full, Whats_Account, Whats_Set_Default, \
     Whats_Region_Size, Whats_Logon_Proc, Whats_Code_Page, Whats_Rows, Whats_Columns
 

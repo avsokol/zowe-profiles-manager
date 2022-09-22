@@ -1,5 +1,5 @@
-from PySide2.QtGui import QCursor, Qt
-from PySide2.QtWidgets import QApplication
+from PySide6.QtGui import QCursor, Qt
+from PySide6.QtWidgets import QApplication
 
 
 class WaitCursor(object):

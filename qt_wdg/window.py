@@ -1,8 +1,8 @@
 import os
-from PySide2 import QtCore, QtGui
-from PySide2.QtCore import SIGNAL
-from PySide2.QtGui import QStandardItemModel, QStandardItem, Qt, QCursor, QFont
-from PySide2.QtWidgets import QMainWindow, QApplication, QMessageBox, QMenu
+from PySide6 import QtCore, QtGui
+from PySide6.QtCore import SIGNAL
+from PySide6.QtGui import QStandardItemModel, QStandardItem, Qt, QCursor, QFont
+from PySide6.QtWidgets import QMainWindow, QApplication, QMessageBox, QMenu
 from lib.decorators.wait_cursor import WaitCursor
 from lib.exceptions.zoe_cmd_fail_exception import ZoweCmdFailException
 from lib.zowe_cmds import execute_zowe_command, ZOWE_ERROR_RESPONSES, get_profiles_from_content, \

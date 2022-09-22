@@ -1,6 +1,6 @@
 import sys
 import os
-from PySide2 import QtWidgets, QtGui
+from PySide6 import QtWidgets, QtGui
 from lib.zowe_cmds import execute_zowe_command
 from inc.constants import TEST
 from qt_wdg.about_widget import About
@@ -34,7 +34,7 @@ def main(params):
             raise
 
         window = Window(debug=debug)
-        sys.exit(app.exec_())
+        sys.exit(app.exec())
 
 
 if __name__ == "__main__":

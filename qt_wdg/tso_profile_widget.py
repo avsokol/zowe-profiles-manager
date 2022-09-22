@@ -1,6 +1,6 @@
-from PySide2 import QtCore, QtWidgets
-from PySide2.QtGui import QStandardItemModel, QStandardItem, QValidator, QCursor, Qt
-from PySide2.QtWidgets import QDialog, QDialogButtonBox, QApplication, QMessageBox
+from PySide6 import QtCore, QtWidgets
+from PySide6.QtGui import QStandardItemModel, QStandardItem, QValidator, QCursor, Qt
+from PySide6.QtWidgets import QDialog, QDialogButtonBox, QApplication, QMessageBox
 from inc.constants import Create_Profile_Title, Edit_Profile_Title, UPDATE_PROFILE, CREATE_PROFILE, SET_DEFAULT_PROFILE
 from lib.decorators.wait_cursor import WaitCursor
 from lib.exceptions.unexpected_answer_exception import UnexpectedAnswerException

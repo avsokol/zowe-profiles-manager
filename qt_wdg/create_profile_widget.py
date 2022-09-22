@@ -1,6 +1,6 @@
-from PySide2 import QtCore, QtWidgets
-from PySide2.QtGui import QCursor, Qt, QValidator
-from PySide2.QtWidgets import QDialog, QMessageBox, QApplication
+from PySide6 import QtCore, QtWidgets
+from PySide6.QtGui import QCursor, Qt, QValidator
+from PySide6.QtWidgets import QDialog, QMessageBox, QApplication
 from lib.decorators.wait_cursor import WaitCursor
 from lib.exceptions.unexpected_answer_exception import UnexpectedAnswerException
 from lib.zowe_cmds import execute_zowe_command, TYPE_SSH, SSH_PORT
